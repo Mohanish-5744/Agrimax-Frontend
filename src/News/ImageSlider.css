@@ -1,0 +1,20 @@
+.image-slider {
+    position: relative;
+  }
+  
+  .image-slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .image-slider .slick-dots li {
+    margin: 0 20px;
+  }
+  

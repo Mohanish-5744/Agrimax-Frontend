@@ -1,0 +1,43 @@
+
+.wrap{
+    position: absolute;
+    width: 30vw;
+    height: 50px;
+    left: 23%;
+    top:240px;
+    color: white;
+    transform: translate(-50%);
+}
+
+.search-box-crop {
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: -3000px;
+  left: -90px;
+  /* z-index: 9999; */
+}
+
+.search-box-crop input[type="text"] {
+  padding: 8px;
+  margin-top: 4%;
+  margin-left: 15%;
+  width: 90%;
+  border: none;
+  border-radius: 7px;
+  border: 2px solid #A5A58D;
+  color: #6B705C;
+}
+
+.search-box-crop button {
+  position: relative;
+  padding: 5px 10px;
+  top: 28px;
+  left: -90px;
+  background-color: transparent;
+  color: #6B705C;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 8;
+}

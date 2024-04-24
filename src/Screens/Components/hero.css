@@ -1,0 +1,187 @@
+html{
+    width: 100VW;
+    overflow-x: hidden;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+.section_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8vw;
+}
+.welcome_sctn{
+    width: 100%;
+    height: 90vh;
+}
+
+.slogan_sctn{
+    position: relative;
+    top: 20vh;
+    left: 8vw;  
+    margin-bottom: 4vh;
+    text-size-adjust:inherit;
+}
+.light-slogan-text,.dark-slogan-text{
+    font-size:400%;
+    font-weight: 999;
+    color: rgb(30, 75, 74);    
+}
+.light-slogan-text{
+    color: rgb(115, 169, 74);
+}
+.mission-text p{
+    position: relative;
+    top:16vh;
+    left: 8vw;
+    color: gray;
+    font-weight: 10;
+    font-size: 0.9em;
+    margin-top: 1rem;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.extra-img-bg{
+    position: absolute;
+    right: -16%;
+    top:-70px;
+    height:520px;
+    width: 560px;
+    border-radius: 50%;
+    background: rgba(203, 249, 123, 0.72);
+}
+.img-bg{
+    position: absolute;
+    right: 0.8vw;
+    top: 16vh;
+    height:30em;
+    width: 44em;
+    z-index: 0;
+    background: url("/src/assets/image/vegetable_basket.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-gradient {
+    position: relative;
+    top:20vh;
+    left: 8vw;
+    background-image: linear-gradient(to right, #43a322, #94ec28);
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 4px 1px yellowgreen;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .btn-gradient:hover{
+    opacity: 0.8;
+  }
+  .play-btn{
+    position: relative;
+    top: 20vh;
+    left: 12vw;
+    
+  }
+
+  /* Hero card */
+  /* Card.css */
+  .hero-card-ishubh{
+    position: relative;
+    top: 32vh;
+    left: 16vh;
+    display: flex;
+    gap: 10vh;
+    max-width: 80%;
+    overflow: scroll;
+  }
+.card-ishubh {
+    height: 120px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1.2px rgba(189, 230, 108, 0.74);
+  }
+  
+  .card-icon-ishub {
+    height: 60px;
+    width: 60px;
+    /* background:url("/src/assets/image/land.png") no-repeat; */
+    margin: 0 8px 0 8px;
+  }
+  
+  .card-content-ishub {
+    flex-grow: 1;
+    /* margin-left: 8%; */
+    align-items: baseline;
+  }
+  
+  .card-heading-ishub {
+    font-size: 18px;
+    color: rgb(37, 187, 236);
+    margin: 0 0 12px 0;
+  }
+  
+  .card-info-ishub {
+    font-size: 14px;
+    margin: 0;
+  }
+   
+  /* Second Hero section */
+  .second-section{
+    position: relative;
+    top:16vh;
+    height: 100vh;
+    margin-bottom: 20px;
+  }
+  .overview-page{
+    position: relative;
+    width: 40vw;
+    height: 400px;
+    top: 8vh;
+    left: 4vw;  
+  }
+ .agriculture-menu{
+  position: relative;
+  top:12vh
+ }
+ .agriculture-menu h1{  color: rgb(30, 75, 74); }
+
+ .sub-option{
+   position: relative;
+   display: flex;
+   gap:4vw;
+   top: 8vh;
+  min-width: 50vw;
+  max-width: 50vw;
+  overflow: scroll;
+ }
+ .card-sctn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 360px;
+  min-width: 280px;
+  border-radius: 24px;
+  background-image: linear-gradient(to bottom, #359123ed, #6ff133);
+ }
+
+ .img-icon{
+   height: 120px;
+   width: 120px;
+   border-radius: 100%;
+   background-color: #ffffff;
+ }
+
+ .card-ishubh:hover,
+ .card-sctn:hover {
+   transform: scale(0.9) translateY(-5px);
+   transition: transform 0.3s ease;
+ }
+ 
+  

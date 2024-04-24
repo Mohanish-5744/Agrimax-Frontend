@@ -1,0 +1,45 @@
+
+.widges{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 12vh;
+    align-items: end;
+}
+.weatherWidget{
+    display: inline-flex;
+    position: relative;
+    left: 44.5vw;
+    top: 2vh;
+    background-color: rgba(71, 64, 64, 0.687);
+    border-radius: 10px;
+}
+.visualcrossing-wx-widget {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: rgb(12, 11, 11);
+    font-weight: 400;
+}
+
+.visualcrossing-wx-widget .period {
+    font-size: 1.1em;
+    padding: 2px 1px;
+    color: red;
+    font-weight: 600;
+}
+.visualcrossing-wx-widget .maxt {
+    font-size: 1.1em;
+    padding: 2px 1px;
+    color: blue;
+}
+.visualcrossing-wx-widget .forecast .period .maxt{
+    color: blue;
+}
+.visualcrossing-wx-widget .forecast .period .date{
+    color: blue;
+}
+.visualcrossing-wx-widget .period .icon{
+    color:blue;
+}
+.weatherWidget .visualcrossing-wx-widget .title{
+    color: blue;
+}

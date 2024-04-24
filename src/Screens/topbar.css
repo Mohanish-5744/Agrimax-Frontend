@@ -1,0 +1,57 @@
+.nav_containar{
+    height: 80px;
+    width: 100vw;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    background:rgba(255, 255, 255, 0.179);
+}
+
+.selected {
+    border: 2px solid green;
+  }
+  
+
+.web_logo{
+    height: 48px;
+    width: 48px;
+    background: url("/src/assets/image/agrimax.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ul_option{
+    display: inline-flex;
+    gap: 4vw;
+}
+li{
+    list-style: none;
+    margin: 0;
+    text-decoration: none;
+}
+.no-underline{
+    text-decoration: none;
+}
+ .profile .ul_option{
+    gap: 2vw;
+}
+.notify{
+    
+    height: 28px;
+    width: 28px;
+    position: relative;
+    top:4px;
+    /* background: url("/src/assets/image/bellIcon.svg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user_profile img{
+    height: 36px;
+    border-radius: 50%;
+}
+
+.selected {
+    border-bottom: 4px solid rgb(135, 245, 135);
+  }

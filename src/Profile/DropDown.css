@@ -1,0 +1,42 @@
+/* Styles for the dropdown container */
+.dropdown-container {
+  position: relative;
+  top: 12.5vh;
+  left: 86vw;
+  align-items: center;
+  align-content: center;
+  z-index: 2;
+}
+
+/* Styles for the button */
+.dropdown-button {
+  border-radius: 50%;
+  border: 2px solid #A5A58D;
+  display: inline-block;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Styles for the dropdown content */
+.dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 8px;
+  z-index: 1;
+}
+
+/* Hide the dropdown content by default */
+.dropdown-content {
+  display: none;
+}
+
+/* Show the dropdown content when hovering over the container */
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}

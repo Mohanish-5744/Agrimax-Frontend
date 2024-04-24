@@ -1,0 +1,64 @@
+.pred-form-container{
+    /* position: absolute; */
+    background: rgb(249, 249, 249);
+}
+
+  
+.pred-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+   */
+   
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d7d4d4d7;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  /* Change background color of options on hover */
+select option:hover {
+    background-color: rgb(18, 27, 59);
+    color: #fff;
+  }
+  
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('/src/assets/image/drop_down.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px;
+  }

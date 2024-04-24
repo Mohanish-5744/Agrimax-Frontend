@@ -1,0 +1,197 @@
+
+ .about{
+   margin-top: 1%;
+   text-align: center;
+   font-size: 4em;
+   font-family: basic;
+ font-weight: bold;
+ text-shadow: 0 0 5px greenyellow;
+ }
+ .about a{
+   text-decoration: none;
+   color: black;
+   font-family: basic;
+ }
+ 
+ .about a:hover{
+   text-decoration: none;
+   color: greenyellow;
+   font-family: basic;
+   text-shadow: 0 0 5px #000b01
+ }
+ .img-1{
+   margin-left: 3em;
+   height: 540px;
+   width: 90%;
+   margin-top: 10px;
+   background-image: url("../photos/image.png");
+   background-size: cover;
+   border: 2px solid black;
+ }
+ .img1 {
+   height: 200px;
+   width: 190px;
+   background-size: cover;
+   margin-left: 15px;
+   align-self: center;
+ }
+ 
+ 
+ .ourTeam{
+   margin-top: 5%;
+ }
+ 
+ .team-member{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+    padding-left: 50px;
+   padding-right: 50px;
+ }
+ 
+ .members{
+   height: 250px;
+   width: 150px;
+   margin-left: 20px;
+   margin-top: 20px;
+   margin-bottom: 120px;
+   margin-right: 100px;
+ }
+ 
+ .member1{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+ }
+ 
+ 
+ .what{
+   margin-top: 1em;
+   margin-bottom: 0.5em;
+   text-align: center;
+   font-family: basic;
+   font-size: 45px;
+   color: rgb(139, 232, 17); 
+     transition: color 0.3s; 
+     text-shadow: 0 0 2px #FF0000;
+     font-weight: bold;
+ }
+ .what:hover{
+   color: #e72113; 
+   text-shadow: 0 0 2px #15cc21
+ }
+ 
+
+ 
+ .services-secton{
+   display: flex;
+   flex-wrap: wrap;
+   background: transparent;
+   padding-left: 140px;
+   padding-right: 140px;
+ }
+ 
+ 
+ .box3321 {
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 250px;
+   width: 200px;
+   margin: 2%;
+   padding: 10px;
+   border-radius: 15px;
+   border: 2px solid rgb(228, 199, 199);
+   text-align: center;
+   background-color: white;
+   background-image: url(../photos/p1.png);
+ }
+ .box3321:hover{
+   box-shadow: 0px 5px 15px 0px rgba(0, 255, 0, 10);
+ }
+ 
+ .services-section{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   background: transparent;
+  
+ }
+
+ 
+ .box23{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .image1{
+   background-image: url(../photos/Agriculture-Machine-PNG-Image-Transparent.png);
+   height: 265px;
+   width: 500px;
+   margin-top: 20px;
+   background-size: cover;
+   margin-left: 30px;
+ }
+ 
+ .image2{
+   height: 300px;
+   width: 300px;
+   margin-top: 20px;
+   background-size: cover;
+   margin-right: 30px;
+   margin-bottom: 20px;
+   background-image: url(../photos/crop.gif);
+ }
+ 
+ .image3{
+   height: 300px;
+   width: 300px;
+   margin-top: 20px;
+   background-size: cover;
+   margin-right: 30px;
+   margin-bottom: 20px;
+   background-image: url(../photos/crop1.gif);
+ }
+ 
+ .box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .text{
+   text-align:justify;
+   margin-top: 20px;
+   padding-left: 3em;
+   padding-right: 3em;
+   font-size: 30px;
+   font-family: basic;
+ }
+ 
+ .service-container1{
+   background-image: url(https://hbr.org/resources/images/article_assets/2021/08/Sep21_02_1176415931.jpg);
+   background-size: cover; 
+   background-repeat: no-repeat; 
+   padding-bottom: 3em;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-left: 4em;
+   margin-right: 4em;  
+ }
+ .service-name{
+   padding-top: 11em;
+   padding-bottom: 1.5em;
+   font-size: 20px;
+   font-family: basic;
+ }
+ .member-name{
+   margin-top: 1em;
+   text-align: center;
+   font-weight: bold;
+   font-size: 2em;
+   font-family: 'Times New Roman', Times, serif;
+ }

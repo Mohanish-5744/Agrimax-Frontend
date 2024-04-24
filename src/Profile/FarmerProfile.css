@@ -1,0 +1,391 @@
+.Gray-color-box-top {
+    position: relative;
+    background-color: #6B705C;
+    width: 1440px;
+    height: 271.5px;
+    flex-shrink: 0;
+    /* z-index: -1; */
+}
+.white-color-box-top {
+    position: relative;
+    background-color: #f7f7f7;
+    width: 1440px;
+    height: 271.5px;
+    flex-shrink: 0;
+    /* z-index: -1; */
+}
+.circle-box-center {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.circle-icon-center {
+    position: relative;
+    border-radius: 100%;
+    left: 45%;
+    margin-top: -6%;
+    padding-top: 20px;
+    width: 170px;
+    height: 170px;
+    border: 5px solid #A5A58D;
+    background-color: rgb(52, 51, 51);
+    /* z-index: 2;  */
+}
+
+.box-of-text {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.user-Name {
+    /* margin-left: 39%; */
+    color: #000;
+    font-family: Basic;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-Type-catagory {
+    /* margin-left: 43%; */
+    color: #6C6C6C;
+    font-family: Basic;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.area-total-area-land,
+.adhar-number-field,
+.contact-number-field {
+    flex: 0 0 33.33%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.area-total-area-land:not(:last-child)::after,
+.adhar-number-field:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #6C6C6C;
+}
+
+.box .value {
+    color: #000;
+    font-family: Basic;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+.box .text {
+    color: #6C6C6C;
+    font-family: Basic;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.ending-button-farmer {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #6B705C;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.search-box-wrap{
+  position: absolute;
+  width: 40vw;
+  height: 50px;
+  left: 34%;
+  top:230px;
+  transform: translate(-50%);
+  z-index: 3;
+  color: white;
+}
+
+.search-box-farmer {
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+
+.search-box-farmer input[type="text"] {
+    padding: 8px;
+    margin-top: 4%;
+    margin-left: 15%;
+    width: 70%;
+    border: none;
+    border-radius: 7px;
+    border: 2px solid #A5A58D;
+    color: #6B705C;
+    z-index: -1;
+
+  }
+
+.search-box-farmer button {
+    position: relative;
+    padding: 5px 10px;
+    top: 28px;
+    left: -90px;
+    background-color: transparent;
+    color: #6B705C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.section-left {
+    flex-basis: 30%;
+    width: 36%;
+    height: 1000px; 
+    flex-shrink: 0;
+    border-right: 0.15rem solid #E6E6E6;
+  }
+  
+
+  .section-right {
+    position: relative;
+    left: 40%;
+    margin-top: -70%;
+    width: 55%;
+    height: 100%;
+  }
+
+  .Detail-heading {
+    color: #6C6C6C;
+    font-family: Basic;
+    margin-top: 10%;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  
+  
+  .circle-box-center1 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .circle-icon-center1 {
+    position: relative;
+    border-radius: 100%;
+    left: 37%;
+    margin-top: 6%;
+    width: 140px;
+    height: 140px;
+    border: 5px solid #A5A58D;
+    background-color: rgb(52, 51, 51);
+    /* z-index: 2;  */
+  }
+  
+  .box-of-text1 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .user-Name1 {
+    /* margin-left: 39%; */
+    color: #000;
+    font-family: Basic;
+    margin-top: 3%;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .user-Type-catagory1 {
+    /* margin-left: 43%; */
+    color: #6C6C6C;
+    font-family: Basic;
+    font-size: 1.5rem;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    text-align: center;
+  }
+  
+  .area-total-area-land1,
+  .adhar-number-field1,
+  .contact-number-field1 {
+    flex: 0 0 10.33%;
+    margin-right: 0px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .area-total-area-land1:not(:last-child)::after,
+  .adhar-number-field1:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -19px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #6C6C6C;
+  }
+  
+  .box1 .value1 {
+    color: #000;
+    font-family: Basic;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+  }
+  
+  .box1 .text1 {
+    color: #6C6C6C;
+    font-family: Basic;
+    font-size: 1.03156rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  
+  .ending-button-farmer1 {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #6B705C;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+  
+  .parent-container {
+    height: 140px;
+    /* Set a specific height for the parent container */
+  }
+  
+  .basic-information {
+    height: 100px;
+    border-bottom: 0.15rem solid #E6E6E6;
+  }
+  
+  .basic-information .text2 {
+    color: #000;
+    font-family: Basic;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .basic-information .cancel-button-farmer1 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6C6C6C;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #A5A58D;
+    background: white;
+    font-size: 0.875rem;
+    width: 5.625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+  }
+  
+  
+  .basic-information .save-button-farmer1 {
+    display: block;
+    /* margin: 0 auto; */
+    /* padding: 10px 20px; */
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    border-radius: 10px;
+    background: #A5A58D;
+    width: 5.625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    /* Align buttons to the right */
+    gap: 10px;
+    /* Add spacing between the buttons */
+    align-content: right;
+  }
+  
+  .information Input[type="text"] {
+    width: 33%;
+  }
+  
+  .information Input[type="text"] {
+    padding-left: 1rem;
+    height: 2.1875rem;
+    border-radius: 0.4375rem;
+    border: 2px solid #E5E5E5;
+  }
+
+ 

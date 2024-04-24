@@ -1,0 +1,194 @@
+.predict_sctn1-pd1{
+    width: 100vw;
+    height: 100vh;
+    background: url('/public/images/grocery-bg.jpeg') no-repeat;
+    background-size: cover;
+    
+}
+
+.bg-prediction-pd1{
+    display: flex;
+    flex-direction: column;
+    
+}
+html::-webkit-scrollbar-track{ visibility: hidden; width: 0;}
+
+.blurr_container-pd1{
+    background: rgba(36, 37, 46, 0.833);
+  height: 100vh;
+}
+.prediction-bg-img-pd1{
+        position: absolute;
+        right: 0.8vw;
+        top: 16vh;
+        height:30em;
+        width: 40em;
+        z-index: 0;
+        background-repeat: no-repeat;
+        background-size: cover;    
+}
+
+.predict-text-pd1 {
+    position: relative;
+    top: 8vh;
+    left: 8vw;  
+    width: 500px;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+    text-size-adjust:inherit;
+}
+
+.light-predict-text-pd1,.dark-predict-text-pd1{
+    font-family: 'Manrope', sans-serif;
+    font-size:520%;
+    font-weight: 699;
+    color: rgb(255, 255, 255);    
+}
+.light-predict-text-pd1{
+    color: rgba(140, 0, 255, 0.915);
+    font-size: 440%;
+}
+
+.pred-btn-info-dsgn-pd1 {
+    width: 44vw;
+    height: 300px;
+    position: relative;
+    left: 8vw;
+    gap: 6vw;
+    align-items: center;
+}
+.predict-info-pd1{
+    position: relative;
+    width: 28vw;
+    height: 24vh;
+    color: rgba(48, 45, 45, 0.902);
+    background-color: rgba(197, 200, 210, 0.946);
+    border-radius: 40px;
+    margin-top: 1rem;
+    font-family:'Courier New', Courier, monospace;
+    transition: .2s ease;
+    
+}
+.predict-info-pd1 p{
+    font-size: 0.9em;
+    margin: 28px;
+}
+.predict-info-pd1:hover{
+    transform: scale(1.03);
+
+}
+/* animation circle */
+
+/* circle design arround button */
+.circle-btn-dsgn-1-pd1,.circle-anime-wane1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
+    width: 128px;
+    border: 1px solid rgb(103, 253, 208);
+    border-radius: 100%;
+    transition: .09s ease-out;
+    z-index: 1;
+}
+
+/* animation circle */
+.circle-anime-wane1{
+    position: absolute;
+    z-index: 0;
+    border: 1.6px solid rgb(118, 249, 251);
+    animation: wave1 1.5s infinite ease;
+}
+.circle-btn-dsgn-2-pd1{
+    height: 80px;
+    width: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    z-index: 1;
+    border: 1px solid rgb(194, 112, 253);
+    border-radius:48px;
+    transition: .02s ease-in-out;
+}
+.circle-btn-dsgn-1-pd1:hover, .circle-btn-dsgn-2-pd1:hover{
+    border: 1.6px solid rgb(147, 243, 248);
+}
+.btn-sh1-pd1 {
+    position: relative;
+    background-image: linear-gradient(to right, #43a322, #94ec28);
+    border: 0;
+    border-radius: 30px;
+    height: 36px;;
+    width: 128px;
+    box-shadow: 1px 1px 6px 1px yellowgreen;
+    transition: opacity 0.3s ease;
+    overflow: hidden;
+    color: aliceblue;
+    font-weight: 500;
+    z-index: 1;
+  }
+
+.btn-sh1-pd1:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 12px 2px rgba(141, 205, 245, 0.661);    
+    background-image: linear-gradient(to right, #9d00ff, #be8dee);
+    color: #ffffff;
+    /* opacity: 1; */
+}
+
+
+.circle-1-pd1,.circle-2-pd1{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* pop up form */
+#prediction-form-popup-pd1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #070c2782;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pred-container-pd1{
+    position: relative;
+    width: 400px;
+    background-color: rgb(8, 228, 37);
+    border-radius: 8px;
+    top: 4vh;
+    box-shadow: 1px 1px 12px 4px rgba(140, 146, 47, 0.514);    
+}
+
+
+.close-btn-pd1{
+    text-align: right;
+}
+.close-btn-pd1:hover{
+    cursor:pointer;
+}
+
+
+  /* animation of wave */
+  
+  @keyframes wave1 {
+    0% {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(1.6);
+      opacity: 0;
+    }
+  }
+
+  ::-webkit-scrollbar-track{ visibility: hidden; width: 0;}
+  
+  .open-menu-to-prediction-pages{
+    /* position: relative; */
+    /* top: 10vh; */
+    width: 0px;
+    height: 0px;
+  }

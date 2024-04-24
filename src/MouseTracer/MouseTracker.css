@@ -1,0 +1,31 @@
+.mouse-tracker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+  }
+  
+  .circle-1,.circle-2 {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border:1px solid #00ffff;
+    transform: translate(-50%, -50%);
+    animation: wave 1.5s infinite ease;
+  }
+  .circle-2{ width: 20px; height: 20px;
+}
+  
+  @keyframes wave {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.4;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(2.4);
+      opacity: 0;
+    }
+  }

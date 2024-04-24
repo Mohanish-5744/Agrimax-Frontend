@@ -1,0 +1,120 @@
+.background-img-shri{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    opacity: 0.9;
+    display: block;
+    z-index: -1;
+}
+
+.slogan-text-background-shri{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background: rgba(39, 43, 71, 0.619);
+    justify-content: center;
+}
+.-shri{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.crop-sectn-shri{
+    position: relative;
+    /* top:100vh; */
+}
+.text-background-shri{
+    position: relative;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+}
+.text-background-shri h1{
+    font-size: 5rem;
+    font-weight: bold;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.text-background-shri p{
+    font-size: 1.3rem;
+    
+    color: #FFF;
+    padding: 0.5rem 0rem 2rem 0rem;
+    
+}
+.post_crop-shri h1{
+    font-size: 4rem;
+    font-weight: bold;
+    background:green;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -100px;
+} 
+
+.post_crop-shri{
+    margin: 4rem 6rem;
+}
+.post_crop-shri p{
+    font-size: 1.3rem;
+    
+    background:black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.crop-info-shri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+.first_crop-info-shri{
+    width: 50%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.first_crop-info-shri h1{
+    padding-bottom: 1rem;
+}
+.image1-shri{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+.image1-shri img{
+    width: 50%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+.second_crop-info-shri{
+    width: 50%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.second_crop-info-shri h1{
+    padding-bottom: 1rem;
+}
+.image2{
+
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+.image2-shri img{
+    width: 50%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
